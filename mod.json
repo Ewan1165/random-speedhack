@@ -1,0 +1,55 @@
+{
+	"geode": "3.1.1",
+	"gd": {
+		"win":  "*"
+	},
+	"version": "v1.0.0",
+	"id": "ewan1165.random-speedhack",
+	"name": "random-speedhack",
+	"developer": "Ewan1165",
+	"description": "",
+	"settings": {
+		"enable": {
+			"name": "Enable",
+			"description": "Enable the mod.",
+			"type": "bool",
+			"default": true
+		},
+		"audio": {
+			"name": "Speedhack Audio",
+			"description": "Speedhack the audio.",
+			"type": "bool",
+			"default": true
+		},
+		"lower-bound": {
+			"name": "Lower Bound",
+			"description": "The lower bound for what speed can be selected.",
+			"type": "float",
+			"default": 0.5,
+			"min": 0.1,
+			"max": 5
+		},
+		"upper-bound": {
+			"name": "Upper Bound",
+			"description": "The upper bound for what speed can be selected.",
+			"type": "float",
+			"default": 1.5,
+			"min": 0,
+			"max": 5
+		},
+		"rate": {
+			"name": "Rate",
+			"description": "The rate at which the speed changes (in ticks).",
+			"type": "float",
+			"default": 2,
+			"min": 1,
+			"max": 20
+		},
+		"onclick": {
+			"name": "On Click",
+			"description": "Makes the speed change each click instead of randomly.",
+			"type": "bool",
+			"default": false
+		}
+	}
+}
